@@ -1,0 +1,26 @@
+{
+  "name": "nuxt3-and-electron-app",
+  "version": "1.0.0",
+  "description": "Nuxt 3 + Electron App",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "electron:dev": "node electron/dev.js",
+    "electron:build": "nuxt build && electron-builder",
+    "watch": "nodemon -e js,ts,vue,html,json,mjs --exec node electron/dev.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "electron-serve": "^1.1.0"
+  },
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-builder": "^24.6.3",
+    "nodemon": "^3.1.9",
+    "nuxt": "^3.7.0",
+    "wait-on": "^7.0.1"
+  }
+}
