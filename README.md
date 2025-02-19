@@ -24,6 +24,9 @@ Comece criando um diretório para o seu projeto:
 
 ```bash
 mkdir nuxt3-electron-app
+```
+
+```bash
 cd nuxt3-electron-app
 ```
 
