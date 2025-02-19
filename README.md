@@ -5,14 +5,15 @@ how configure nuxt3 and electron project tutorial - feb 025 - A ready-to-go boil
 
 ----
 
-```markdown
+
 # Nuxt3 + Electron: Passo a Passo para Implementação
 
+```
 Este guia detalhado oferece um passo a passo completo para construir uma aplicação desktop utilizando Nuxt3 (um framework Vue.js) e Electron.
-
+```
 <!-- Centered Image -->
-<p align="center">
-  <img src="URL_DA_SUA_IMAGEM_AQUI" width="90%">
+<p align="center" style="width:100%;display:flex" >
+  <img src="URL_DA_SUA_IMAGEM_AQUI" width="90%" style="margin:0 auto;">
 </p>
 
 ## Passo a Passo
