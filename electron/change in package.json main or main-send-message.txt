@@ -1,0 +1,4 @@
+in your package.json file, 
+you can change the main property to main-send-message.js
+
+use 'main.js' or 'main-send-message.js'

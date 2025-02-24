@@ -1,0 +1,36 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Configuration files
+config/*.json
+**/credentials.*
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Misc
+.DS_Store
+.fleet
